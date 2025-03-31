@@ -84,7 +84,7 @@ while cap.isOpened():
             y = angles[1] * 360
             z = angles[2] * 360
 
-            if x < -10:
+            if x < 0:
                 head_pose = "Looking Down"
             else:
                 head_pose = "Looking Up"
